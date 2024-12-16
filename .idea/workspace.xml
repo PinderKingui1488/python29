@@ -4,22 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6c6b082-38b4-4bd5-a799-32a4a08c0377" name="Changes" comment="22 start">
-      <change afterPath="$PROJECT_DIR$/catalog/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/management/commands/delete_all.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/5.png" afterDir="false" />
+    <list default="true" id="c6c6b082-38b4-4bd5-a799-32a4a08c0377" name="Changes" comment="23">
+      <change afterPath="$PROJECT_DIR$/catalog/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templates/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templates/includes/inc_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templates/products_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templates/products_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templatetags/my_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/color-modes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/catalog/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/catalog/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +128,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
       </set>
     </attachedChunks>
   </component>
@@ -148,11 +149,20 @@
       <option name="project" value="LOCAL" />
       <updated>1733408854713</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="23">
+      <option name="closed" value="true" />
+      <created>1733573247355</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733573247355</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="22 start" />
-    <option name="LAST_COMMIT_MESSAGE" value="22 start" />
+    <MESSAGE value="23" />
+    <option name="LAST_COMMIT_MESSAGE" value="23" />
   </component>
 </project>
