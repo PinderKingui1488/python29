@@ -4,23 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6c6b082-38b4-4bd5-a799-32a4a08c0377" name="Changes" comment="23">
-      <change afterPath="$PROJECT_DIR$/catalog/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/templates/contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/templates/includes/inc_menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/templates/products_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/templates/products_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/templatetags/my_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/color-modes.js" afterDir="false" />
+    <list default="true" id="c6c6b082-38b4-4bd5-a799-32a4a08c0377" name="Changes" comment="24">
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/templates/Frogadier_blog/base_frogo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/templates/Frogadier_blog/includes/inc_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/templates/Frogadier_blog/post_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/templates/Frogadier_blog/post_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/templates/Frogadier_blog/post_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/templates/Frogadier_blog/post_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/templatetags/Frogadier_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frogadier_blog/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/product_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/product_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/templates/catalog/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/templates/catalog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/management/commands/delete_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/management/commands/delete_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/catalog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/catalog/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/catalog/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/includes/inc_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/catalog/includes/inc_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/products_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/catalog/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/products_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/catalog/products_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +46,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -69,11 +85,13 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Student/PycharmProjects/python22/manage.py&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Student/Downloads/python23-main&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Student\PycharmProjects\python22\catalog\templates\catalog" />
+      <recent name="C:\Users\Student\PycharmProjects\python22\catalog\templates" />
       <recent name="C:\Users\Student\PycharmProjects\python22\screenshots" />
     </key>
   </component>
@@ -128,7 +146,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -157,12 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1733573247355</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="24">
+      <option name="closed" value="true" />
+      <created>1734351230190</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734351230190</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="22 start" />
     <MESSAGE value="23" />
-    <option name="LAST_COMMIT_MESSAGE" value="23" />
+    <MESSAGE value="24" />
+    <option name="LAST_COMMIT_MESSAGE" value="24" />
   </component>
 </project>
