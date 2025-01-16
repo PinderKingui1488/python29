@@ -9,6 +9,7 @@ from django.views.generic import (
 )
 
 from catalog.models import Product
+from catalog.forms import ProductForm
 
 
 def home(request):
@@ -29,29 +30,13 @@ class ProductDetailView(DetailView):
 
 class ProductCreateView(CreateView):
     model = Product
-    fields = (
-        "name",
-        "description",
-        "image",
-        "category",
-        "price",
-        "created_at",
-        "updated_at",
-    )
+    form_class = ProductForm
     success_url = reverse_lazy("catalog:products_list")
 
 
 class ProductUpdateView(UpdateView):
     model = Product
-    fields = (
-        "name",
-        "description",
-        "image",
-        "category",
-        "price",
-        "created_at",
-        "updated_at",
-    )
+    form_class = ProductForm
     success_url = reverse_lazy("catalog:products_list")
 
 
