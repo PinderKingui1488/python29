@@ -1,14 +1,25 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.core.exceptions import PermissionDenied
+from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
+from services import get_products_from_cache, get_products_by_category
 
 from catalog.forms import ProductForm, ProductModeratorForm
-from catalog.models import Product
+from catalog.models import Product, Category
 
 
 class ProductListView(ListView):
     model = Product
+
+    def get_queryset(self):
+        return get_products_from_cache().filter(is_public=True)
+
+
+def products_by_category_view(request, category_id):
+    products = get_products_by_category(category_id)
+    category = Category.objects.get(id=category_id)
+    return render(request, 'catalog/products_by_category.html', {'products': products, 'category': category})
 
 
 class ProductDetailView(DetailView):
